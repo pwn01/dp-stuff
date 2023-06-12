@@ -1,3 +1,5 @@
+#!/bin/bash
+
 pacman -S xorg-server pulseaudio pulseaudio-alsa;
 pacman -S virtualbox-guest-utils xf86-video-vmware;
 systemctl enable vboxservice;
